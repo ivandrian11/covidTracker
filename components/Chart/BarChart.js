@@ -15,7 +15,7 @@ export const options = {
 
 export default function BarChart({ data }) {
   return (
-    <div className="w-full h-72 2xl:h-3/4">
+    <div className="w-full h-64 xl:h-2/3 2xl:h-3/4">
       <Bar
         data={{
           labels: ["Confirmed", "Recovered", "Deaths"],
